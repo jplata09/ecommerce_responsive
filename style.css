@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Poppins', sans-serif;
+
+}
+
+.hd{
+height: 100px;
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.indice{
+   width: 400px;
+   height: 60px;
+   border: solid black 1px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   
+}
+
+.indice a{
+
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.bc{
+
+    width: 100px;
+
+}
+/*aqui termina el header*/
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea{
+    border: 1px solid rgb(170, 163, 163); 
+    width: 1800px;
+   
+   
+   
+}
+
+.cont_mn0{
+    height: 1000px;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.cont_mn{
+    height: 750px;
+    width: 1300px;
+    border: solid black 1px;    
+    margin-right: 250px;
+
+    
+}
+
+.text{
+
+    height: 300px;
+    width: 1200px;
+    border: solid black 1px;  
+    position: absolute;
+    margin-left: 50px;
+
+}
+.text h1{
+    font-family:serif;
+    font-size: 110px;
+}
+
+
+
+
+.discover{
+
+    height: 60px;
+    width: 300px;
+    border: solid black 1px;
+    margin-top: 500px;
+    margin-left: 50px;
+    display: flex;    
+    align-items: center;
+
+}
+
+.discover a{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.cardgrey{
+    height: 60px;
+    width: 300px;
+    border: solid rgb(78, 74, 74) 1px;
+
+}
+
+
+  
